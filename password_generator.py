@@ -8,7 +8,7 @@ init(autoreset=True)
 letters_and_numbers = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUNWXYZ0123456789"
 
 
-def cls():
+def display_clear():
     os.system("cls||clear")
 
 
@@ -127,7 +127,7 @@ if file_write.upper().startswith("Y"):
         os.startfile(fr"{os.getcwd()}\{full_file_name}")
     sleep(2)
 
-cls()
+display_clear()
 
 print(Fore.YELLOW + """
 ██╗░░██╗░█████╗░██╗░░░██╗███████╗  ░█████╗░  ░██████╗░░█████╗░░█████╗░██████╗░
